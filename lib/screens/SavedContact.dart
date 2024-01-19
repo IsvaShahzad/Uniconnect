@@ -150,7 +150,7 @@ class _SavedContactsScreenState extends State<SavedContactsScreen> {
                       hintText: 'Enter contact phone',
                     ),
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 11),
                   ElevatedButton(
                     onPressed: () {
                       _addContact();

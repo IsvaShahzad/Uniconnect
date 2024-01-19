@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(height: 20.0),
+            SizedBox(height: 30.0),
             ElevatedButton(
               onPressed: () async {
 

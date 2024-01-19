@@ -64,7 +64,7 @@ class _NewMessageState extends State<NewMessage> {
 
       _controller.clear();
     } catch (error) {
-      print('Error adding message to Firestore: $error');
+      print('Error adding message to Firestore!: $error');
     }
   }
 

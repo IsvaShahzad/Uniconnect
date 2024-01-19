@@ -128,7 +128,7 @@ class _OtpPageState extends State<OtpPage> {
           _verificationID = verID;
         });
       },
-      timeout: Duration(seconds: 10),
+      timeout: Duration(seconds: 11),
       codeSent: (String verificationId, int? forceResendingToken) {
         setState(() {
           _verificationID = verificationId;

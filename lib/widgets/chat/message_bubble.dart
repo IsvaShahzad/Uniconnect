@@ -48,7 +48,7 @@ class MessageBubble extends StatelessWidget {
                 children: <Widget>[
 
                   SizedBox(
-                    height: 10.0,
+                    height: 9.0,
                   ),
                   if (chatURL.isNotEmpty)
                     Image.network(
