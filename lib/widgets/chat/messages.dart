@@ -30,7 +30,7 @@ class Messages extends StatelessWidget {
 
         final chatDocs = chatSnapshot.data?.docs ?? [];
         print("Chat Docs: $chatDocs");
-        print("Chat Docs Lengthh: ${chatDocs?.length}");
+        print("Chat Docs Length: ${chatDocs?.length}");
 
         return chatDocs.isEmpty
             ? Center(

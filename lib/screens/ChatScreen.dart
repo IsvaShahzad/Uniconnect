@@ -56,7 +56,7 @@ class _ChatScreenState extends State<ChatScreen> {
     String selectedUserId = widget.selectedUserData['phone'] ?? '';
     String currentUserId = widget.currentUserData['phone'] ?? '';
 
-    print('Selected User ID: $selectedUserId');
+    print('Selected the User ID: $selectedUserId');
     print('Current User ID: $currentUserId');
 
     // Add this line to print the selected user ID

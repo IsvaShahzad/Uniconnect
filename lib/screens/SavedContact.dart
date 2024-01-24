@@ -129,7 +129,7 @@ class _SavedContactsScreenState extends State<SavedContactsScreen> {
     } else {
       // Show a message indicating that the selected contact doesn't belong to the current user
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Text('You don\'t have access to this contact.'),
+        content: Text('You don\'t have access to this contact!'),
       ));
     }
   }

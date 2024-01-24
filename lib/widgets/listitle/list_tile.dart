@@ -58,7 +58,7 @@ class ContactsListTile extends StatelessWidget {
   }
 
   void _startChat(String phone, String imageUrl) {
-    print('Selected User Phonee: $phone');
+    print('Selected User Phone: $phone');
     print('Current User Phone: ${currentUserData['phone']}');
     // Navigate to the chat screen or perform any other action
   }

@@ -82,7 +82,7 @@ class _OtpPageState extends State<OtpPage> {
                 } catch (e) {
                   FocusScope.of(context).unfocus();
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('Invalid OTP')),
+                    SnackBar(content: Text('Invalid OTP!')),
                   );
                 }
               },
